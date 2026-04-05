@@ -1,6 +1,5 @@
 <div align="center">
-  <!-- BANNER (Puedes usar Canva para hacer uno de 1500x500px) -->
-  <img src="https://via.placeholder.com/1500x500/0d1117/c9d1d9?text=Hamza+-+Systems+%26+Automation+Enthusiast" alt="Banner" />
+  <img src="./src/Banner.png" alt="Hamza - Systems & Automation Enthusiast" width="100%" />
 </div>
 
 <h1 align="center">¡Hola! Soy Hamza 👋</h1>
