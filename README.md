@@ -15,7 +15,6 @@
 - 💡 Me apasiona la eficiencia, dominar la terminal de Linux y levantar entornos desde cero.
 - 🗣️ **Idiomas:** Español 🇪🇸 (Nativo) · Árabe 🇲🇦 (Nativo) · Catalán 🏴 (Nativo) · Inglés 🇬🇧 (B1)
 - 🧠 **Soft Skills:** Resolución de problemas complejos · Trabajo autónomo · Pensamiento analítico · Ganas de crecer
-- 📫 Contacto: [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hamzarazzoukicv@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamza-razzouki-it)
 
 ---
 
@@ -81,12 +80,17 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <a href="https://www.linkedin.com/in/hamza-razzouki-it" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
       </a>
     </td>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
+      <a href="mailto:hamzarazzoukicv@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+      </a>
+    </td>
+    <td width="33%" align="center">
       <a href="https://x.com/Hamzaa_Dev" target="_blank">
         <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
       </a>
