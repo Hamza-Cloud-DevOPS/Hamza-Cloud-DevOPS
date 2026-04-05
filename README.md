@@ -50,9 +50,6 @@
 *(Esta lista se actualiza mágicamente cada noche con tus proyectos públicos más recientes gracias a GitHub Actions)*
 
 <!-- START_LATEST_REPOS -->
-<div align="center">
-  <i><p>🚀 Tus repositorios públicos más recientes aparecerán aquí automáticamente cada noche.</p></i>
-</div>
 <!-- END_LATEST_REPOS -->
 
 ---
@@ -62,9 +59,6 @@
 *(¡Tú decides qué proyectos aparecen aquí sin editar este texto!)*
 
 <!-- START_FEATURED_REPOS -->
-<div align="center">
-  <i><p>⭐ Añade el topic <b>destacado</b> a cualquier repositorio tuyo y aparecerá aquí automáticamente.</p></i>
-</div>
 <!-- END_FEATURED_REPOS -->
 
 ---
