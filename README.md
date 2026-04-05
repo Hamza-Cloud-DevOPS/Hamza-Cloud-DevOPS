@@ -10,7 +10,7 @@
 ### 👨‍💻 Sobre Mí
 
 - 🚀 Apasionado por construir pipelines e infraestructuras automatizadas.
-- 🔭 **En desarrollo:** Creando un script automatizado para desplegar un entorno de servicios con **Docker, n8n, Postgres y Whisper**. (¡Pronto en mis repositorios!)
+- 🔭 **En desarrollo:** Creando un script automatizado para desplegar un entorno de servicios con **selfhosted-n8n-ai-stack**. (¡Pronto en mis repositorios!)
 - 🌱 Explorando y aprendiendo continuamente sobre **Cloud, DevOps y Ciberseguridad**.
 - 💡 Me apasiona la eficiencia, dominar la terminal de Linux y levantar entornos desde cero.
 - 🗣️ **Idiomas:** Español 🇪🇸 (Nativo) · Árabe 🇲🇦 (Nativo) · Catalán 🏴 (Nativo) · Inglés 🇬🇧 (B1)
