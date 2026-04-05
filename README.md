@@ -78,22 +78,16 @@
 
 ### 🤝 Conecta Conmigo
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="33%" align="center">
-      <a href="https://www.linkedin.com/in/hamza-razzouki-it" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-      </a>
-    </td>
-    <td width="33%" align="center">
-      <a href="mailto:hamzarazzoukicv@gmail.com" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-      </a>
-    </td>
-    <td width="33%" align="center">
-      <a href="https://x.com/Hamzaa_Dev" target="_blank">
-        <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://www.linkedin.com/in/hamza-razzouki-it" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:hamzarazzoukicv@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://x.com/Hamzaa_Dev" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" height="40" />
+  </a>
+</div>
