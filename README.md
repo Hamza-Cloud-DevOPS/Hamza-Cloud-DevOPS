@@ -47,16 +47,12 @@
 
 ### 🚀 Últimos Proyectos Públicos
 
-*(Esta lista se actualiza mágicamente cada noche con tus proyectos públicos más recientes gracias a GitHub Actions)*
-
 <!-- START_LATEST_REPOS -->
 <!-- END_LATEST_REPOS -->
 
 ---
 
 ### ⭐ Mis Proyectos Destacados (Selección Especial)
-
-*(¡Tú decides qué proyectos aparecen aquí sin editar este texto!)*
 
 <!-- START_FEATURED_REPOS -->
 <!-- END_FEATURED_REPOS -->
