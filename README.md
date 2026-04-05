@@ -51,8 +51,7 @@
 
 <!-- START_LATEST_REPOS -->
 <div align="center">
-  <a href="https://github.com/docker/compose"><img src="https://github-readme-stats.vercel.app/api/pin/?username=docker&repo=compose&theme=vision-friendly-dark" alt="docker-compose" /></a><br/><br/>
-  <a href="https://github.com/n8n-io/n8n"><img src="https://github-readme-stats.vercel.app/api/pin/?username=n8n-io&repo=n8n&theme=vision-friendly-dark" alt="n8n" /></a><br/><br/>
+  <i><p>🚀 Tus repositorios públicos más recientes aparecerán aquí automáticamente cada noche.</p></i>
 </div>
 <!-- END_LATEST_REPOS -->
 
@@ -64,7 +63,7 @@
 
 <!-- START_FEATURED_REPOS -->
 <div align="center">
-  <a href="https://github.com/hashicorp/terraform"><img src="https://github-readme-stats.vercel.app/api/pin/?username=hashicorp&repo=terraform&theme=vision-friendly-dark" alt="terraform" /></a><br/><br/>
+  <i><p>⭐ Añade el topic <b>destacado</b> a cualquier repositorio tuyo y aparecerá aquí automáticamente.</p></i>
 </div>
 <!-- END_FEATURED_REPOS -->
 
@@ -73,22 +72,18 @@
 ### 📈 Estadísticas y Actividad
 
 <div align="center">
-  <!-- TOP LENGUAJES -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza-Cloud-DevOPS&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- LA SERPIENTE (SNAKE) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
-
-*(⚠️ **Nota:** Cambia `YOUR_GITHUB_USERNAME` por tu nombre de usuario de GitHub para que la tarjeta de lenguajes funcione. Para que la serpiente funcione, necesitaremos configurar un pequeño archivo extra después).*
 
 ---
 
