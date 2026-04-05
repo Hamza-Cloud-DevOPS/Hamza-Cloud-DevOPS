@@ -52,7 +52,7 @@
 
 ---
 
-### ⭐ Mis Proyectos Destacados (Selección Especial)
+### ⭐ Mis Proyectos Destacados
 
 <!-- START_FEATURED_REPOS -->
 <!-- END_FEATURED_REPOS -->
