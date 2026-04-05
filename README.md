@@ -1,10 +1,6 @@
 <div align="center">
   <img src="./src/Banner.png" alt="Hamza - Systems & Automation Enthusiast" width="100%" />
 </div>
-
-<h1 align="center">¡Hola! Soy Hamza 👋</h1>
-<h3 align="center">Systems & Automation Enthusiast | Exploring Cloud & DevOps ☁️</h3>
-
 <br/>
 
 ### 👨‍💻 Sobre Mí
