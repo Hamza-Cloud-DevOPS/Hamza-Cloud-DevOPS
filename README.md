@@ -1,16 +1,111 @@
-## Hi there 👋
+<div align="center">
+  <!-- BANNER (Puedes usar Canva para hacer uno de 1500x500px) -->
+  <img src="https://via.placeholder.com/1500x500/0d1117/c9d1d9?text=Hamza+-+Systems+%26+Automation+Enthusiast" alt="Banner" />
+</div>
 
-<!--
-**Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">¡Hola! Soy Hamza 👋</h1>
+<h3 align="center">Systems & Automation Enthusiast | Exploring Cloud & DevOps ☁️</h3>
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 Sobre Mí
+
+- 🚀 Apasionado por construir pipelines e infraestructuras automatizadas.
+- 🔭 **En desarrollo:** Creando un script automatizado para desplegar un entorno de servicios con **Docker, n8n, Postgres y Whisper**. (¡Pronto en mis repositorios!)
+- 🌱 Explorando y aprendiendo continuamente sobre **Cloud, DevOps y Ciberseguridad**.
+- 💡 Me apasiona la eficiencia, dominar la terminal de Linux y levantar entornos desde cero.
+- 🗣️ **Idiomas:** Español 🇪🇸 (Nativo) · Árabe 🇲🇦 (Nativo) · Catalán 🏴 (Nativo) · Inglés 🇬🇧 (B1)
+- 🧠 **Soft Skills:** Resolución de problemas complejos · Trabajo autónomo · Pensamiento analítico · Ganas de crecer
+- 📫 Contacto: **[Tu Email o LinkedIn aquí]**
+
+---
+
+### 🛠️ Tecnologías y Herramientas
+
+**🐧 Sistemas Operativos y Entornos**  
+<img src="https://skillicons.dev/icons?i=linux,debian,arch,ubuntu,windows" alt="OS" />
+<br/><br/>
+
+**☁️ Infraestructura y Contenedores**  
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,nginx" alt="Infra" />
+<br/><br/>
+
+**🗄️ Bases de Datos**  
+<img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,firebase,mongo" alt="Databases" />
+<br/><br/>
+
+**💻 Scripting & Terminal**  
+<img src="https://skillicons.dev/icons?i=bash,powershell,python,neovim" alt="Scripting" />
+<br/><br/>
+
+**🛠️ Herramientas y Ciberseguridad**  
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman,kali" alt="Tools" />
+<br/><br/>
+
+> **Ecosistema Adicional:** **`n8n`** (Automatización), `Podman`, `Docker Networks`, `ZSH`, Administración de Redes y Sistemas.
+
+---
+
+### 🚀 Últimos Proyectos Públicos
+
+*(Esta lista se actualiza mágicamente cada noche con tus proyectos públicos más recientes gracias a GitHub Actions)*
+
+<!-- START_LATEST_REPOS -->
+<div align="center">
+  <a href="https://github.com/docker/compose"><img src="https://github-readme-stats.vercel.app/api/pin/?username=docker&repo=compose&theme=vision-friendly-dark" alt="docker-compose" /></a><br/><br/>
+  <a href="https://github.com/n8n-io/n8n"><img src="https://github-readme-stats.vercel.app/api/pin/?username=n8n-io&repo=n8n&theme=vision-friendly-dark" alt="n8n" /></a><br/><br/>
+</div>
+<!-- END_LATEST_REPOS -->
+
+---
+
+### ⭐ Mis Proyectos Destacados (Selección Especial)
+
+*(¡Tú decides qué proyectos aparecen aquí sin editar este texto!)*
+
+<!-- START_FEATURED_REPOS -->
+<div align="center">
+  <a href="https://github.com/hashicorp/terraform"><img src="https://github-readme-stats.vercel.app/api/pin/?username=hashicorp&repo=terraform&theme=vision-friendly-dark" alt="terraform" /></a><br/><br/>
+</div>
+<!-- END_FEATURED_REPOS -->
+
+---
+
+### 📈 Estadísticas y Actividad
+
+<div align="center">
+  <!-- TOP LENGUAJES -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- LA SERPIENTE (SNAKE) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+*(⚠️ **Nota:** Cambia `YOUR_GITHUB_USERNAME` por tu nombre de usuario de GitHub para que la tarjeta de lenguajes funcione. Para que la serpiente funcione, necesitaremos configurar un pequeño archivo extra después).*
+
+---
+
+### 🤝 Conecta Conmigo
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://www.linkedin.com/in/hamza-razzouki-it" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://x.com/Hamzaa_Dev" target="_blank">
+        <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
+      </a>
+    </td>
+  </tr>
+</table>
