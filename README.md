@@ -15,7 +15,7 @@
 - 💡 Me apasiona la eficiencia, dominar la terminal de Linux y levantar entornos desde cero.
 - 🗣️ **Idiomas:** Español 🇪🇸 (Nativo) · Árabe 🇲🇦 (Nativo) · Catalán 🏴 (Nativo) · Inglés 🇬🇧 (B1)
 - 🧠 **Soft Skills:** Resolución de problemas complejos · Trabajo autónomo · Pensamiento analítico · Ganas de crecer
-- 📫 Contacto: **[Tu Email o LinkedIn aquí]**
+- 📫 Contacto: [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hamzarazzoukicv@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamza-razzouki-it)
 
 ---
 
