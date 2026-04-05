@@ -1,7 +1,6 @@
 <div align="center">
   <img src="./src/Banner.png" alt="Hamza - Systems & Automation Enthusiast" width="100%" />
 </div>
-<br/>
 
 ### 👨‍💻 Sobre Mí
 
