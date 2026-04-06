@@ -42,6 +42,7 @@
 ### 🚀 Últimos Proyectos Públicos
 
 <!-- START_LATEST_REPOS -->
+\n<div align="center">\n  <i><p>🚀 Tus proyectos más nuevos aparecerán aquí automáticamente.</p></i>\n</div>\n
 <!-- END_LATEST_REPOS -->
 
 ---
@@ -49,6 +50,7 @@
 ### ⭐ Mis Proyectos Destacados
 
 <!-- START_FEATURED_REPOS -->
+\n<div align="center">\n  <i><p>⭐ Ve a cualquier repositorio y añádele el tag/topic <b>destacado</b> para que aparezca fijado aquí.</p></i>\n</div>\n
 <!-- END_FEATURED_REPOS -->
 
 ---
