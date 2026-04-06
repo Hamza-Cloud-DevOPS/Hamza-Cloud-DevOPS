@@ -42,9 +42,8 @@
 ### 🚀 Últimos Proyectos Públicos
 
 <!-- START_LATEST_REPOS -->
-<div align="center">
-  <i><p>🚀 Tus proyectos más nuevos aparecerán aquí automáticamente.</p></i>
-</div>
+
+<div align="center">  <a href="https://github.com/Hamza-Cloud-DevOPS/selfhosted-n8n-ai-stack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hamza-Cloud-DevOPS&repo=selfhosted-n8n-ai-stack&theme=vision-friendly-dark" alt="selfhosted-n8n-ai-stack" /></a><br/><br/></div>
 <!-- END_LATEST_REPOS -->
 
 ---
@@ -52,9 +51,8 @@
 ### ⭐ Mis Proyectos Destacados
 
 <!-- START_FEATURED_REPOS -->
-<div align="center">
-  <i><p>⭐ Ve a cualquier repositorio y añádele el tag/topic <b>destacado</b> para que aparezca fijado aquí.</p></i>
-</div>
+
+<div align="center">  <a href="https://github.com/Hamza-Cloud-DevOPS/selfhosted-n8n-ai-stack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hamza-Cloud-DevOPS&repo=selfhosted-n8n-ai-stack&theme=vision-friendly-dark" alt="selfhosted-n8n-ai-stack" /></a><br/><br/></div>
 <!-- END_FEATURED_REPOS -->
 
 ---
