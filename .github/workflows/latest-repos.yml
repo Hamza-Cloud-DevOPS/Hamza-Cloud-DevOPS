@@ -20,13 +20,21 @@ jobs:
           repos=$(curl -s -H "Accept: application/vnd.github.v3+json" "https://api.github.com/users/$owner/repos?sort=updated&direction=desc&per_page=15" | jq -r '.[] | select((.fork==false) and (.private==false) and (.name!="'"$owner"'")) | .name' | head -n 3)
           
           if [ -z "$repos" ]; then
-            latest_html="\n<div align=\"center\">\n  <i><p>🚀 Tus proyectos más nuevos aparecerán aquí automáticamente.</p></i>\n</div>\n"
+            latest_html="
+<div align=\"center\">
+  <i><p>🚀 Tus proyectos más nuevos aparecerán aquí automáticamente.</p></i>
+</div>
+"
           else
-            latest_html="\n<div align=\"center\">\n"
+            latest_html="
+<div align=\"center\">
+"
             for repo in $repos; do
-              latest_html="${latest_html}  <a href=\"https://github.com/$owner/$repo\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=$owner&repo=$repo&theme=vision-friendly-dark\" alt=\"$repo\" /></a><br/><br/>\n"
+              latest_html="${latest_html}  <a href=\"https://github.com/$owner/$repo\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=$owner&repo=$repo&theme=vision-friendly-dark\" alt=\"$repo\" /></a><br/><br/>
+"
             done
-            latest_html="${latest_html}</div>\n"
+            latest_html="${latest_html}</div>
+"
           fi
           
           export latest_html
@@ -43,13 +51,21 @@ jobs:
           repos=$(curl -s -H "Accept: application/vnd.github.v3+json" "https://api.github.com/users/$owner/repos?per_page=100" | jq -r '.[] | select((.fork==false) and (.private==false) and (has("topics")) and (.topics | index("destacado"))) | .name')
           
           if [ -z "$repos" ]; then
-             featured_html="\n<div align=\"center\">\n  <i><p>⭐ Ve a cualquier repositorio y añádele el tag/topic <b>destacado</b> para que aparezca fijado aquí.</p></i>\n</div>\n"
+             featured_html="
+<div align=\"center\">
+  <i><p>⭐ Ve a cualquier repositorio y añádele el tag/topic <b>destacado</b> para que aparezca fijado aquí.</p></i>
+</div>
+"
           else
-             featured_html="\n<div align=\"center\">\n"
+             featured_html="
+<div align=\"center\">
+"
              for repo in $repos; do
-               featured_html="${featured_html}  <a href=\"https://github.com/$owner/$repo\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=$owner&repo=$repo&theme=vision-friendly-dark\" alt=\"$repo\" /></a><br/><br/>\n"
+               featured_html="${featured_html}  <a href=\"https://github.com/$owner/$repo\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=$owner&repo=$repo&theme=vision-friendly-dark\" alt=\"$repo\" /></a><br/><br/>
+"
              done
-             featured_html="${featured_html}</div>\n"
+             featured_html="${featured_html}</div>
+"
           fi
           
           export featured_html
