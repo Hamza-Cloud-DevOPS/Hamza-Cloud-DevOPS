@@ -2,41 +2,35 @@ name: Update Dynamic README Sections
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Se ejecuta todos los días a medianoche
-  workflow_dispatch: # Botón para ejecutarlo a mano cuando quieras
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Fetch and Update LATEST REPOS
         run: |
           owner="${{ github.repository_owner }}"
-          # Buscar los últimos 3 repositorios públicos recientes
-          repos=$(curl -s -H "Accept: application/vnd.github.v3+json" "https://api.github.com/users/$owner/repos?sort=updated&direction=desc&per_page=15" | jq -r '.[] | select((.fork==false) and (.private==false) and (.name!="'"$owner"'")) | .name' | head -n 3)
-          
+          repos=$(curl -s -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/users/$owner/repos?sort=updated&direction=desc&per_page=15" \
+            | jq -r '.[] | select((.fork==false) and (.private==false) and (.name!="'"$owner"'")) | .name' \
+            | head -n 3)
+
           if [ -z "$repos" ]; then
-            latest_html="
-<div align=\"center\">
-  <i><p>🚀 Tus proyectos más nuevos aparecerán aquí automáticamente.</p></i>
-</div>
-"
+            latest_html=$(printf '\n<div align="center">\n  <i><p>🚀 Tus proyectos más nuevos aparecerán aquí automáticamente.</p></i>\n</div>\n')
           else
-            latest_html="
-<div align=\"center\">
-"
+            latest_html=$(printf '\n<div align="center">\n')
             for repo in $repos; do
-              latest_html="${latest_html}  <a href=\"https://github.com/$owner/$repo\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=$owner&repo=$repo&theme=vision-friendly-dark\" alt=\"$repo\" /></a><br/><br/>
-"
+              latest_html="${latest_html}$(printf '  <a href="https://github.com/%s/%s"><img src="https://github-readme-stats.vercel.app/api/pin/?username=%s&repo=%s&theme=vision-friendly-dark" alt="%s" /></a><br/><br/>\n' "$owner" "$repo" "$owner" "$repo" "$repo")"
             done
-            latest_html="${latest_html}</div>
-"
+            latest_html="${latest_html}$(printf '</div>\n')"
           fi
-          
+
           export latest_html
           awk '
           /<!-- START_LATEST_REPOS -->/ { print; print ENVIRON["latest_html"]; skip=1; next }
@@ -47,34 +41,27 @@ jobs:
       - name: Fetch and Update FEATURED REPOS
         run: |
           owner="${{ github.repository_owner }}"
-          # Buscar repositorios con el topic o etiqueta "destacado"
-          repos=$(curl -s -H "Accept: application/vnd.github.v3+json" "https://api.github.com/users/$owner/repos?per_page=100" | jq -r '.[] | select((.fork==false) and (.private==false) and (has("topics")) and (.topics | index("destacado"))) | .name')
-          
+          repos=$(curl -s -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/users/$owner/repos?per_page=100" \
+            | jq -r '.[] | select((.fork==false) and (.private==false) and (has("topics")) and (.topics | index("destacado"))) | .name')
+
           if [ -z "$repos" ]; then
-             featured_html="
-<div align=\"center\">
-  <i><p>⭐ Ve a cualquier repositorio y añádele el tag/topic <b>destacado</b> para que aparezca fijado aquí.</p></i>
-</div>
-"
+            featured_html=$(printf '\n<div align="center">\n  <i><p>⭐ Ve a cualquier repositorio y añádele el tag/topic <b>destacado</b> para que aparezca fijado aquí.</p></i>\n</div>\n')
           else
-             featured_html="
-<div align=\"center\">
-"
-             for repo in $repos; do
-               featured_html="${featured_html}  <a href=\"https://github.com/$owner/$repo\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=$owner&repo=$repo&theme=vision-friendly-dark\" alt=\"$repo\" /></a><br/><br/>
-"
-             done
-             featured_html="${featured_html}</div>
-"
+            featured_html=$(printf '\n<div align="center">\n')
+            for repo in $repos; do
+              featured_html="${featured_html}$(printf '  <a href="https://github.com/%s/%s"><img src="https://github-readme-stats.vercel.app/api/pin/?username=%s&repo=%s&theme=vision-friendly-dark" alt="%s" /></a><br/><br/>\n' "$owner" "$repo" "$owner" "$repo" "$repo")"
+            done
+            featured_html="${featured_html}$(printf '</div>\n')"
           fi
-          
+
           export featured_html
           awk '
           /<!-- START_FEATURED_REPOS -->/ { print; print ENVIRON["featured_html"]; skip=1; next }
           /<!-- END_FEATURED_REPOS -->/ { skip=0 }
           !skip { print }
           ' README.md > temp.md && mv temp.md README.md
-          
+
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
