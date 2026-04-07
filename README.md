@@ -9,7 +9,7 @@
 - 🌱 Desarrollo continuo de conocimientos en ambitos **Cloud, DevOps y Ciberseguridad**.
 - 💡 Gestión automatizada de procesos para la mejora de rendimiento y seguridad a nivel de hardware y software.
 - 🗣️ **Idiomas:** Español 🇪🇸 (Nativo) · Árabe 🇲🇦 (Nativo) · Catalán 🏴 (Nativo) · Inglés 🇬🇧 (B1)
-- 🧠 **Soft Skills:** Resolución de problemas complejos · Trabajo autónomo · Pensamiento analítico · Capacidad de adaptación · Resolución de incidencias 
+- 🧠 **Soft Skills:** Resolución de incidencias complejas · Trabajo autónomo · Pensamiento analítico · Capacidad de adaptación
 
 ---
 
