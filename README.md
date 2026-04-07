@@ -43,7 +43,7 @@
 
 <!-- START_LATEST_REPOS -->
 
-<div align="center">  <a href="https://github.com/Hamza-Cloud-DevOPS/selfhosted-n8n-ai-stack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hamza-Cloud-DevOPS&repo=selfhosted-n8n-ai-stack&theme=vision-friendly-dark" alt="selfhosted-n8n-ai-stack" /></a><br/><br/></div>
+<div align="center">  <a href="https://github.com/kagebit/selfhosted-n8n-ai-stack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kagebit&repo=selfhosted-n8n-ai-stack&theme=vision-friendly-dark" alt="selfhosted-n8n-ai-stack" /></a><br/><br/></div>
 <!-- END_LATEST_REPOS -->
 
 ---
@@ -52,7 +52,7 @@
 
 <!-- START_FEATURED_REPOS -->
 
-<div align="center">  <a href="https://github.com/Hamza-Cloud-DevOPS/selfhosted-n8n-ai-stack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hamza-Cloud-DevOPS&repo=selfhosted-n8n-ai-stack&theme=vision-friendly-dark" alt="selfhosted-n8n-ai-stack" /></a><br/><br/></div>
+<div align="center">  <a href="https://github.com/kagebit/selfhosted-n8n-ai-stack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kagebit&repo=selfhosted-n8n-ai-stack&theme=vision-friendly-dark" alt="selfhosted-n8n-ai-stack" /></a><br/><br/></div>
 <!-- END_FEATURED_REPOS -->
 
 ---
