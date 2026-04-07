@@ -4,12 +4,12 @@
 
 ### 👨‍💻 Sobre Mí
 
-- 🚀 Apasionado por construir pipelines e infraestructuras automatizadas.
-- 🔭 **En desarrollo:** Creando un script automatizado. **selfhosted-n8n-ai-stack**. (¡Pronto en mis repositorios!)
-- 🌱 Explorando y aprendiendo continuamente sobre **Cloud, DevOps y Ciberseguridad**.
-- 💡 Me apasiona la eficiencia, dominar la terminal de Linux y levantar entornos desde cero.
+- 🚀 Implementación y optimización de sistema operativos buscando la optimización máxima de los recursos disponibles.
+- 🔭 Trabajando actualmente en el proyecto  **selfhosted-n8n-ai-stack**.
+- 🌱 Desarrollo continuo de conocimientos en ambitos **Cloud, DevOps y Ciberseguridad**.
+- 💡 Gestión automatizada de procesos para la mejora de rendimiento y seguridad a nivel de hardware y software.
 - 🗣️ **Idiomas:** Español 🇪🇸 (Nativo) · Árabe 🇲🇦 (Nativo) · Catalán 🏴 (Nativo) · Inglés 🇬🇧 (B1)
-- 🧠 **Soft Skills:** Resolución de problemas complejos · Trabajo autónomo · Pensamiento analítico · Ganas de crecer
+- 🧠 **Soft Skills:** Resolución de problemas complejos · Trabajo autónomo · Pensamiento analítico · Capacidad de adaptación · Resolución de incidencias 
 
 ---
 
@@ -60,16 +60,16 @@
 ### 📈 Estadísticas y Actividad
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza-Cloud-DevOPS&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kagebit&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Hamza-Cloud-DevOPS/Hamza-Cloud-DevOPS/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kagebit/kagebit/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kagebit/kagebit/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kagebit/kagebit/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
 
